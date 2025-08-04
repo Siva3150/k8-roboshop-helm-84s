@@ -1,0 +1,7 @@
+deployment: 
+ imageURL: siva3150/catalogue  
+ imageVersion: v1 
+hpa: 
+ maxReplicas: 10 
+ utilisation: 75 
+ 
